@@ -64,5 +64,5 @@ Route::get('/about', function(){
 });
 
 Route::get('/article/{id}', function($id){
-    echo "Halaman Artikel dengan ID {id}";
+    echo "Halaman Artikel dengan ID" . $id;
 });
